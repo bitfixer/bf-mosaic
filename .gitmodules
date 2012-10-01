@@ -1,0 +1,6 @@
+[submodule "bf-mosaic/lib/zlib"]
+	path = bf-mosaic/lib/zlib
+	url = https://github.com/madler/zlib.git
+[submodule "lib/libpng"]
+	path = lib/libpng
+	url = https://github.com/bitfixer/bf-libpng.git
