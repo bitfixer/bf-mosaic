@@ -1,0 +1,211 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650F680B161A5E8B00673298 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 650F680A161A5E8B00673298 /* main.cpp */; };
+		650F680D161A5E8B00673298 /* bf_mosaic.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 650F680C161A5E8B00673298 /* bf_mosaic.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		650F6804161A5E8B00673298 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				650F680D161A5E8B00673298 /* bf_mosaic.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		650F6806161A5E8B00673298 /* bf-mosaic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "bf-mosaic"; sourceTree = BUILT_PRODUCTS_DIR; };
+		650F680A161A5E8B00673298 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		650F680C161A5E8B00673298 /* bf_mosaic.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = bf_mosaic.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		650F6803161A5E8B00673298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650F67FB161A5E8B00673298 = {
+			isa = PBXGroup;
+			children = (
+				650F6809161A5E8B00673298 /* bf-mosaic */,
+				650F6807161A5E8B00673298 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		650F6807161A5E8B00673298 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				650F6806161A5E8B00673298 /* bf-mosaic */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		650F6809161A5E8B00673298 /* bf-mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				650F680A161A5E8B00673298 /* main.cpp */,
+				650F680C161A5E8B00673298 /* bf_mosaic.1 */,
+			);
+			path = "bf-mosaic";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		650F6805161A5E8B00673298 /* bf-mosaic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 650F6810161A5E8B00673298 /* Build configuration list for PBXNativeTarget "bf-mosaic" */;
+			buildPhases = (
+				650F6802161A5E8B00673298 /* Sources */,
+				650F6803161A5E8B00673298 /* Frameworks */,
+				650F6804161A5E8B00673298 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "bf-mosaic";
+			productName = "bf-mosaic";
+			productReference = 650F6806161A5E8B00673298 /* bf-mosaic */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		650F67FD161A5E8B00673298 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = Gubbish;
+			};
+			buildConfigurationList = 650F6800161A5E8B00673298 /* Build configuration list for PBXProject "bf-mosaic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 650F67FB161A5E8B00673298;
+			productRefGroup = 650F6807161A5E8B00673298 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				650F6805161A5E8B00673298 /* bf-mosaic */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		650F6802161A5E8B00673298 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				650F680B161A5E8B00673298 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		650F680E161A5E8B00673298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		650F680F161A5E8B00673298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		650F6811161A5E8B00673298 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		650F6812161A5E8B00673298 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		650F6800161A5E8B00673298 /* Build configuration list for PBXProject "bf-mosaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F680E161A5E8B00673298 /* Debug */,
+				650F680F161A5E8B00673298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		650F6810161A5E8B00673298 /* Build configuration list for PBXNativeTarget "bf-mosaic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				650F6811161A5E8B00673298 /* Debug */,
+				650F6812161A5E8B00673298 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 650F67FD161A5E8B00673298 /* Project object */;
+}
